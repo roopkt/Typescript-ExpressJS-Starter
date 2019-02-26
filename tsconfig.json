@@ -1,6 +1,10 @@
 {
+  "include": ["src/**/*"],
   "compilerOptions": {
     "target": "es5",
-    "outDir": "dist"
+    "outDir": "dist",
+    "module": "commonjs",
+    "rootDir": "src",
+    "removeComments": false
   }
 }
